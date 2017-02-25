@@ -11,6 +11,6 @@ class SitioController extends Controller
     }
 
     public function saludar(Request $request, $nombre){
-        echo "Hola" . $nombre;
+        echo "Hola " . $nombre;
     }
 }
